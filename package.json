@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/stats-base-dists-t-kurtosis",
+  "version": "0.0.0",
+  "description": "Student's t distribution excess kurtosis.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-t-kurtosis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "distribution",
+    "dist",
+    "kurtosis",
+    "tails",
+    "t",
+    "gosset",
+    "student",
+    "univariate",
+    "continuous"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
