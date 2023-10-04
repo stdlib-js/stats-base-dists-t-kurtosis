@@ -71,7 +71,7 @@ For `ν` smaller than two, the kurtosis is not defined.
 To use in Observable,
 
 ```javascript
-kurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@umd/browser.js' )
+kurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -83,7 +83,7 @@ var kurtosis = require( 'path/to/vendor/umd/stats-base-dists-t-kurtosis/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -160,7 +160,7 @@ y = kurtosis( 2.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
