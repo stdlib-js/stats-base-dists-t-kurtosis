@@ -69,7 +69,7 @@ For `ν` smaller than two, the kurtosis is not defined.
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.2.1-deno/mod.js';
 ```
 
 #### kurtosis( v )
@@ -133,7 +133,7 @@ y = kurtosis( 2.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.2.1-deno/mod.js';
 
 var v;
 var y;
