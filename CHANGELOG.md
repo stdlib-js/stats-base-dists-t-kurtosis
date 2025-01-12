@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-12)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`998c1be`](https://github.com/stdlib-js/stdlib/commit/998c1be8630c1efcf19beefda88181db820d1dcb) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
 -   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - **feat:** add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905) _(by Aayush Khanna, aayush0325)_
 
 </details>
@@ -46,9 +47,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Philipp Burckhardt
 -   aayush0325
 
 </section>
