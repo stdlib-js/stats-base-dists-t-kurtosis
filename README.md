@@ -149,19 +149,16 @@ y = kurtosis( 2.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var kurtosis = require( '@stdlib/stats-base-dists-t-kurtosis' );
 
-var v;
-var y;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var v = uniform( 10, 0.0, 20.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    v = randu() * 20.0;
-    y = kurtosis( v );
-    console.log( 'v: %d, Kurt(X,v): %d', v.toFixed( 4 ), y.toFixed( 4 ) );
-}
+logEachMap( 'v: %0.4f, Kurt(X;v): %0.4f', v, kurtosis );
 ```
 
 </section>
@@ -328,8 +325,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
