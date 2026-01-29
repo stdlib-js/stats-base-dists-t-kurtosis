@@ -69,6 +69,11 @@ For `ν` smaller than two, the kurtosis is not defined.
 ## Usage
 
 ```javascript
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-t-kurtosis/tags). For example,
+
+```javascript
 import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.3.0-esm/index.mjs';
 ```
 
@@ -138,7 +143,7 @@ y = kurtosis( 2.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.3.0-esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
