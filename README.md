@@ -69,7 +69,7 @@ For `ν` smaller than two, the kurtosis is not defined.
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.3.0-esm/index.mjs';
 ```
 
 #### kurtosis( v )
@@ -138,7 +138,7 @@ y = kurtosis( 2.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-kurtosis@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
